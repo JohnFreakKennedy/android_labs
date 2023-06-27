@@ -7,6 +7,23 @@
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 
+    <!-- shape names as strings -->
+    <string name="shape_triangle">Triangle</string>
+    <string name="shape_circle">Circle</string>
+    <string name="shape_square">Square</string>
+    <string name="shape_rectangle">Rectangle</string>
+    <string name="shape_parallelogram">Parallelogram</string>
+    <string name="shape_trapezium">Trapezium</string>
+
+    <string-array name="shapes">
+        <item>@string/shape_triangle</item>
+        <item>@string/shape_circle</item>
+        <item>@string/shape_square</item>
+        <item>@string/shape_rectangle</item>
+        <item>@string/shape_parallelogram</item>
+        <item>@string/shape_trapezium</item>
+    </string-array>
+
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
         volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
@@ -44,4 +61,6 @@
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
     <string name="welcome_message">Welcome to the Shape Calculator app. Tap the \'Next\' button to select a shape out of list. Then tap \'Next\' again to put the dimensions for a selected shape. After you\'ve put the dimensions into text boxes, tap \'Calculate\' button. You\'ll get the area and perimeter as a result. Feel free to try it out!</string>
+    <string name="return_message">Back to main menu</string>
+    <string name="shape_list">List of the shapes</string>
 </resources>

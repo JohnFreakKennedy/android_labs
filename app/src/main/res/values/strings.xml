@@ -2,8 +2,8 @@
     <string name="app_name">ShapeCalculator</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
+    <string name="first_fragment_label">Main menu</string>
+    <string name="second_fragment_label">Shape Selection</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 
@@ -43,4 +43,5 @@
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
+    <string name="welcome_message">Welcome to the Shape Calculator app. Tap the \'Next\' button to select a shape out of list. Then tap \'Next\' again to put the dimensions for a selected shape. After you\'ve put the dimensions into text boxes, tap \'Calculate\' button. You\'ll get the area and perimeter as a result. Feel free to try it out!</string>
 </resources>

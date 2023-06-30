@@ -1,4 +1,4 @@
-package com.example.shapecalculator
+package com.example.shapecalculator.screens
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,7 +6,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
+import com.example.shapecalculator.R
 import com.example.shapecalculator.databinding.FragmentSecondBinding
+import com.example.shapecalculator.models.ShapeList
+
+
 
 /**
  * A simple [Fragment] subclass as the second destination in the navigation.
@@ -19,6 +23,7 @@ class SecondFragment : Fragment() {
     // onDestroyView.
     private val binding get() = _binding!!
 
+
     override fun onCreateView(
             inflater: LayoutInflater, container: ViewGroup?,
             savedInstanceState: Bundle?
@@ -26,7 +31,6 @@ class SecondFragment : Fragment() {
 
         _binding = FragmentSecondBinding.inflate(inflater, container, false)
         return binding.root
-
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -35,10 +39,15 @@ class SecondFragment : Fragment() {
         binding.buttonSecond.setOnClickListener {
             findNavController().navigate(R.id.action_SecondFragment_to_FirstFragment)
         }
+
+       /* binding.selectedShapeNextButton.setOnClickListener{
+            findNavController().navigate(R.id.)
+        }*/
     }
 
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
     }
+
 }

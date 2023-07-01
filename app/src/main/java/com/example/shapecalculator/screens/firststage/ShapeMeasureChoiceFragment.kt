@@ -99,8 +99,10 @@ class ShapeMeasureChoiceFragment : Fragment() {
                         R.id.radioButtonTrapezium -> intent.putExtra("shape", "trapezium")
                         R.id.radioButtonTriangle -> intent.putExtra("shape", "triangle")
                     }
-                    intent.putExtra("isAreaChecked", checkBoxArea.isChecked)
-                    intent.putExtra("isPerimeterChecked", checkBoxPerimeter.isChecked)
+                    val checkArea:Boolean = checkBoxArea.isChecked
+                    val checkPerimeter:Boolean = checkBoxPerimeter.isChecked
+                    intent.putExtra("isAreaChecked", checkArea)
+                    intent.putExtra("isPerimeterChecked", checkPerimeter)
 
                     startActivity(intent)
                 }

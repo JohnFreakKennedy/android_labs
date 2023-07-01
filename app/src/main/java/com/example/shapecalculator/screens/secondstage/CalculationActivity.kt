@@ -1,5 +1,6 @@
 package com.example.shapecalculator.screens.secondstage
 
+import android.content.Intent
 import android.os.Bundle
 import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
@@ -19,6 +20,14 @@ class CalculationActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         WindowCompat.setDecorFitsSystemWindows(window, false)
         super.onCreate(savedInstanceState)
+        val intent = intent
+        val shape = intent.getStringExtra("shape")
+        val checkArea: Boolean by lazy { intent.getBooleanExtra("isAreaChecked", false) }
+        val checkPerimeter: Boolean by lazy { intent.getBooleanExtra("isPerimeterChecked", false) }
+        val calcIntent: Intent = Intent(this, PutDimensionsFragment::class.java)
+        calcIntent.putExtra("shape", shape)
+        calcIntent.putExtra("checkArea", checkArea)
+        calcIntent.putExtra("checkPerimeter", checkPerimeter)
 
         binding = ActivityCalculationBinding.inflate(layoutInflater)
         setContentView(binding.root)

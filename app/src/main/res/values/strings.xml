@@ -2,10 +2,27 @@
     <string name="app_name">ShapeCalculator</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
+    <string name="first_fragment_label">Main menu</string>
+    <string name="second_fragment_label">Shape Selection</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
+
+    <!-- shape names as strings -->
+    <string name="shape_triangle">Triangle</string>
+    <string name="shape_circle">Circle</string>
+    <string name="shape_square">Square</string>
+    <string name="shape_rectangle">Rectangle</string>
+    <string name="shape_parallelogram">Parallelogram</string>
+    <string name="shape_trapezium">Trapezium</string>
+
+    <string-array name="shapes">
+        <item>@string/shape_triangle</item>
+        <item>@string/shape_circle</item>
+        <item>@string/shape_square</item>
+        <item>@string/shape_rectangle</item>
+        <item>@string/shape_parallelogram</item>
+        <item>@string/shape_trapezium</item>
+    </string-array>
 
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
@@ -43,4 +60,22 @@
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
+    <string name="welcome_message">Welcome to the Shape Calculator app. Tap the \'Next\' button to select a shape out of list. Then tap \'Next\' again to put the dimensions for a selected shape. After you\'ve put the dimensions into text boxes, tap \'Calculate\' button. You\'ll get the area and/or perimeter as a result. Feel free to try it out!</string>
+    <string name="return_message">Back to main menu</string>
+    <string name="shape_list">List of the shapes</string>
+    <string name="area">Area</string>
+    <string name="perimeter">Perimeter</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_calculation_result">CalculationResultActivity</string>
+    <string name="title_activity_calculation">CalculationActivity</string>
+    <string name="radius">Put the radius length here</string>
+    <string name="calculate">Calculate</string>
+    <string name="base_length">Put the base length here</string>
+    <string name="shape_height">Put the shape height here</string>
+    <string name="input_shape_length">Put the shape length here</string>
+    <string name="input_shape_breadth">Put the shape breadth here</string>
+    <string name="input_square_side">Put the square side here</string>
+    <string name="input_trapezium_top_length">Put the top length here</string>
+    <string name="input_trapezium_bottom_length">Put the bottom length here</string>
 </resources>

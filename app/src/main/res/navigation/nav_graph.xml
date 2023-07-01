@@ -3,26 +3,26 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/FirstFragment">
+    app:startDestination="@id/InstructionViewFragment">
 
     <fragment
-        android:id="@+id/FirstFragment"
-        android:name="com.example.shapecalculator.FirstFragment"
+        android:id="@+id/InstructionViewFragment"
+        android:name="com.example.shapecalculator.screens.firststage.InstructionViewFragment"
         android:label="@string/first_fragment_label"
-        tools:layout="@layout/fragment_first">
+        tools:layout="@layout/fragment_instruction">
 
         <action
-            android:id="@+id/action_FirstFragment_to_SecondFragment"
-            app:destination="@id/SecondFragment" />
+            android:id="@+id/action_InstructionFragment_to_ShapeMeasureChoiceFragment"
+            app:destination="@id/ShapeMeasureChoiceFragment" />
     </fragment>
     <fragment
-        android:id="@+id/SecondFragment"
-        android:name="com.example.shapecalculator.SecondFragment"
+        android:id="@+id/ShapeMeasureChoiceFragment"
+        android:name="com.example.shapecalculator.screens.firststage.ShapeMeasureChoiceFragment"
         android:label="@string/second_fragment_label"
-        tools:layout="@layout/fragment_second">
+        tools:layout="@layout/fragment_choice">
 
         <action
             android:id="@+id/action_SecondFragment_to_FirstFragment"
-            app:destination="@id/FirstFragment" />
+            app:destination="@id/InstructionViewFragment" />
     </fragment>
 </navigation>

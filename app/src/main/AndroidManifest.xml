@@ -13,7 +13,19 @@
         android:theme="@style/Theme.ShapeCalculator"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".screens.secondstage.CalculationActivity"
+            android:exported="false"
+            android:label="@string/title_activity_calculation"
+            android:theme="@style/Theme.ShapeCalculator" />
+        <!--
+        <activity
+            android:name=".screens.CalculationResultActivity"
+            android:exported="false"
+            android:label="@string/title_activity_calculation_result"
+            android:theme="@style/Theme.ShapeCalculator" />
+        -->
+        <activity
+            android:name=".screens.firststage.MainPageActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.ShapeCalculator">

@@ -34,7 +34,9 @@ class InstructionViewFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.buttonFirst.setOnClickListener {
-            findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
+            if (isAdded) {
+                findNavController().navigate(R.id.action_InstructionFragment_to_ShapeMeasureChoiceFragment)
+            }
         }
     }
 

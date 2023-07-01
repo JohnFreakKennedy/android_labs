@@ -17,12 +17,12 @@
     </fragment>
     <fragment
         android:id="@+id/Second2Fragment"
-        android:name="com.example.shapecalculator.screens.secondstage.Second2Fragment"
+        android:name="com.example.shapecalculator.screens.secondstage.PutDimensionsFragment"
         android:label="@string/second_fragment_label"
-        tools:layout="@layout/fragment_second2">
+        tools:layout="@layout/fragment_put_dimensions_circle">
 
         <action
-            android:id="@+id/action_Second2Fragment_to_FirstFragment"
+            android:id="@+id/action_PutDimensionsFragment_to_FirstFragment"
             app:destination="@id/FirstFragment" />
     </fragment>
 </navigation>

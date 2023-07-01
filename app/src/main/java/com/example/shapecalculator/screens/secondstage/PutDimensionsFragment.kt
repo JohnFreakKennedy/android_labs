@@ -7,14 +7,14 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import com.example.shapecalculator.R
-import com.example.shapecalculator.databinding.FragmentSecond2Binding
+import com.example.shapecalculator.databinding.FragmentPutDimensionsTrapeziumBinding
 
 /**
  * A simple [Fragment] subclass as the second destination in the navigation.
  */
-class Second2Fragment : Fragment() {
+class PutDimensionsFragment : Fragment() {
 
-    private var _binding: FragmentSecond2Binding? = null
+    private var _binding: FragmentPutDimensionsTrapeziumBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -25,7 +25,7 @@ class Second2Fragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        _binding = FragmentSecond2Binding.inflate(inflater, container, false)
+        _binding = FragmentPutDimensionsTrapeziumBinding.inflate(inflater, container, false)
         return binding.root
 
     }
@@ -34,7 +34,7 @@ class Second2Fragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.buttonSecond.setOnClickListener {
-            findNavController().navigate(R.id.action_Second2Fragment_to_FirstFragment)
+            findNavController().navigate(R.id.action_PutDimensionsFragment_to_FirstFragment)
         }
     }
 

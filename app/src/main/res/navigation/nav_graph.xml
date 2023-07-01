@@ -12,7 +12,7 @@
         tools:layout="@layout/fragment_instruction">
 
         <action
-            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            android:id="@+id/action_InstructionFragment_to_ShapeMeasureChoiceFragment"
             app:destination="@id/ShapeMeasureChoiceFragment" />
     </fragment>
     <fragment

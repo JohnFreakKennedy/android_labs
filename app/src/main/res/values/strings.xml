@@ -69,4 +69,13 @@
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="title_activity_calculation_result">CalculationResultActivity</string>
     <string name="title_activity_calculation">CalculationActivity</string>
+    <string name="radius">Put the radius length here</string>
+    <string name="calculate">Calculate</string>
+    <string name="base_length">Put the base length here</string>
+    <string name="shape_height">Put the shape height here</string>
+    <string name="input_shape_length">Put the shape length here</string>
+    <string name="input_shape_breadth">Put the shape breadth here</string>
+    <string name="input_square_side">Put the square side here</string>
+    <string name="input_trapezium_top_length">Put the top length here</string>
+    <string name="input_trapezium_bottom_length">Put the bottom length here</string>
 </resources>
